@@ -137,7 +137,7 @@ func credHandler(w http.ResponseWriter, r *http.Request) {
 		  		  <legend>Change Credentials</legend>
 				  <label>Username:</label><br/>
 				  <input type="text" name="username"><br/>
-				  <label>Filename:</label><br />
+				  <label>Password:</label><br />
 				  <input type="password" name="password"><br />
 				  <input type="submit">
 		  </fieldset>
