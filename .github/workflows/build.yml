@@ -21,7 +21,7 @@ jobs:
           xbps-install -Syu || xbps-install -yu xbps
           xbps-install -yu
       - name: Install Packages
-        run: xbps-install -Sy git wget bash go nodejs github-cli
+        run: xbps-install -Sy git wget bash go gcc nodejs github-cli
       - name: Checkout repository
         uses: actions/checkout@v2
       - name: Build remdl for Linux (amd64 and arm64) and Win (amd64)
